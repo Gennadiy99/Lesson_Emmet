@@ -1,0 +1,139 @@
+/* Проба написания стилей через Emmet */
+.div {
+  margin: 5rem 10rem 15rem 20rem;
+  padding-right: 3rem 4rem 3rem 5rem;
+}
+.row {
+  padding-left: 10px 15px 20px -5px;
+  margin: 5% 10% 15% 30%;
+}
+/* Кнопки перехода по якорю на Оглавление темы */
+.btn {
+  margin-top: 2px;
+  border-radius: 5px;
+  border: solid 2px #050505;
+  background: #9a9ae1;
+  color: #f9f7f7;
+  font-weight: 700;
+  transition: 0.5s;
+  width: 100%;
+}
+.res_n {
+  resize: none;
+}
+.res_h {
+  resize: horizontal;
+}
+.res_v {
+  resize: vertical;
+}
+
+.btn:hover {
+  color: blue;
+  background: aqua;
+  
+}
+.btn a {
+  text-decoration: none;
+  float: right;
+  display: table-column-group;
+}
+/* Стиль Цвета Заголовков */
+.col_h {
+  background: #9a9ae1;
+  border-radius: 4px;
+  border: solid 2px;
+  padding: 2px;
+  text-align: center;
+}
+/* Стиль колонки в таблице */
+td {
+  padding: 2px;
+}
+
+div {
+  /* margin: 0 auto;
+  margin-left: 5px;
+  cursor: pointer;
+  cursor:help; 
+  */
+  /* font: 1em sans-serif; */
+  /* font-weight: normal; */
+  /* font-weight: bold; */
+  /* font-weight: bolder; */
+  /* font-weight: 400; */
+  /* font-family: serif; */
+
+  /* font-effect: none; */
+  /* font-stretch: normal; */
+  /* vertical-align: top; */
+  /* text-align: left; */
+  /* text-align: right; */
+  /* text-align: center; */
+  /* text-align: justify; */
+  /* letter-spacing: normal; */
+  /* text-transform: uppercase; */
+
+  /* text-decoration: none; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* background: #fff; */
+  /* background-size: contain; */
+  /* color: rgb(0, 0, 0); */
+  font-style: italic;
+  font-size: 15px;
+  font-family: monospace;
+  /* background-image: url('Французский Бульдог.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* color: rgba(0, 0, 0, .8); */
+  /* opacity: 0.5; */
+  /* content */
+  /* list-style-position: inside; */
+}
+ul{
+  /* list-style-position: outside; */
+  /* list-style-position: inside; */
+  /* list-style: none; */
+  /* list-style-type: decimal; */
+  /* list-style-type: armenian; */
+  /* list-style-type: decimal-leading-zero; */
+  /* list-style-type: disc; */
+  list-style-type: circle;
+  /* list-style-type: georgian; */
+  /* list-style-type: lower-alpha; */
+  /* list-style-type: lower-greek; */
+  /* list-style-type: lower-latin; */
+  /* list-style-type: lower-roman; */
+  /* list-style-image: ; */
+  /* @font-face {
+    font-family: 'FontName';
+    src: url('FileName.eot');
+    src: url('FileName.eot?#iefix') format('embedded-opentype'),
+       url('FileName.woff') format('woff'),
+       url('FileName.ttf') format('truetype'),
+       url('FileName.svg#FontName') format('svg');
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: ;
+    src: url();
+  } */
+  /* @import url(); */
+  /* @keyframes identifier {
+    
+  } */
+  /* align-content: start; */
+  /* flex-direction: ; */
+  font-size: 26px;
+  lh15px
+}
+
+@media screen and (max-width: 600px){
+    body{
+      background-color: #f0abab;
+    }
+  }
